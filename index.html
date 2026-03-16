@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Listen to My BS - Blog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Noto Sans KR', sans-serif; background: #f8fafc; color: #0f172a; }
+  </style>
+</head>
+<body class="antialiased p-6 md:p-12">
+  <div class="max-w-3xl mx-auto">
+    <header class="mb-12">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-black text-slate-900 mb-3 tracking-tight">Listen to My BS</h1>
+          <p class="text-slate-600 text-lg">Thinking, Planning, and Engineering.</p>
+        </div>
+        <div class="bg-white p-5 rounded-3xl border border-slate-200 shadow-sm max-w-sm">
+          <div class="flex items-center gap-4 mb-3">
+            <div class="w-12 h-12 bg-indigo-600 rounded-2xl flex items-center justify-center text-white font-black text-xl">황</div>
+            <div>
+              <div class="text-sm font-bold text-slate-900">황건구 (Gun-gu Hwang)</div>
+              <div class="text-xs text-slate-500">System Architect @ LINE Plus</div>
+            </div>
+          </div>
+          <p class="text-xs leading-relaxed text-slate-600 mb-2">
+            시스템 아키텍트이자 개발자. 《KODE VICIOUS 개발 지옥》, 《웹 API 디자인》 역자. 복잡한 시스템의 의사소통 구조를 설계하고 자동화하는 것에 깊은 관심을 가지고 있습니다.
+          </p>
+          <div class="flex gap-2">
+            <a href="https://www.facebook.com/under09" class="text-[10px] font-bold text-indigo-600 hover:underline">Facebook →</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="mt-8 inline-block bg-indigo-50 px-4 py-2 rounded-2xl border border-indigo-100">
+        <p class="text-xs md:text-sm font-bold text-indigo-700">
+          "도시락 싸들고 설득하러 다니기 지쳐서 블로그 만들었습니다."
+        </p>
+      </div>
+    </header>
+
+    <main class="space-y-6">
+      <!-- Post Item 2 -->
+      <a href="posts/intellectual-giants-and-assistants.html" class="block group">
+        <article class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 transition group-hover:shadow-md group-hover:border-indigo-200">
+          <div class="flex items-center gap-2 text-xs font-bold text-indigo-600 mb-2">
+            <span class="bg-indigo-50 px-2 py-1 rounded">Thinking</span>
+            <time class="text-slate-400 font-normal">2026.03.16</time>
+          </div>
+          <h2 class="text-xl font-bold text-slate-900 mb-2 group-hover:text-indigo-600 transition">지적 거인들의 조수와 AI: 우리는 왜 자판을 두드리는가?</h2>
+          <p class="text-slate-500 text-sm line-clamp-2">
+            위대한 업적 뒤에는 항상 '기록'과 '계산'을 대신해준 조수들이 있었습니다. 우리가 자판을 두드리는 것이 노동의 본질이라 착각하는 시대에 던지는 질문.
+          </p>
+        </article>
+      </a>
+    </main>
+    
+    <footer class="mt-20 pt-8 border-t border-slate-200 text-center text-sm text-slate-400">
+      &copy; 2026 kuil09. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
